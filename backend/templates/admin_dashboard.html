@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ORBYL Admin Dashboard</title>
+  <link rel="stylesheet" href="/style/style.css?v=admin">
+</head>
+<body class="admin-page">
+  <main class="admin-shell admin-wide">
+    <header class="admin-header"><div><p class="admin-kicker">ORBYL ADMIN</p><h1>Early Access entries</h1></div><a href="/admin/logout">Log out</a></header>
+    <p class="admin-meta">{{ entries|length }} submission{% if entries|length != 1 %}s{% endif %}</p>
+    <div class="admin-table-wrap">
+      <table><thead><tr><th>Name</th><th>Contact</th><th>Lost invoices/warranty</th><th>Features</th><th>Ownership problems</th><th>Received</th></tr></thead>
+      <tbody>{% for entry in entries %}<tr><td>{{ entry.name }}</td><td>{{ entry.email }}<br>{{ entry.phone }}</td><td>{{ entry.lost }}</td><td>{{ entry.features|join(", ") }}</td><td>{{ entry.problems|join(", ") }}</td><td>{{ entry.created_at.strftime("%Y-%m-%d %H:%M") if entry.created_at else "—" }}</td></tr>{% else %}<tr><td colspan="6">No entries yet.</td></tr>{% endfor %}</tbody></table>
+    </div>
+  </main>
+</body>
+</html>
