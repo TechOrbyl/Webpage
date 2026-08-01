@@ -1,0 +1,44 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --text-000000: #000000;
+  --text-0000ee: #0000ee;
+  --background-efefef: #efefef;
+  --background-ffffff: #ffffff;
+  --placeholder-757575: #757575;
+
+  /* Fonts */
+  --text-times-16-regular-font-family: Inter-Regular, sans-serif;
+  --text-times-16-regular-font-size: 16px;
+  --text-times-16-regular-line-height: normal;
+  --text-times-16-regular-font-weight: 400;
+  --text-times-16-regular-font-style: normal;
+  --text-times-32-bold-font-family: Inter-Bold, sans-serif;
+  --text-times-32-bold-font-size: 32px;
+  --text-times-32-bold-line-height: normal;
+  --text-times-32-bold-font-weight: 700;
+  --text-times-32-bold-font-style: normal;
+  --text-times-16-regular-2-font-family: Inter-Regular, sans-serif;
+  --text-times-16-regular-2-font-size: 16px;
+  --text-times-16-regular-2-line-height: normal;
+  --text-times-16-regular-2-font-weight: 400;
+  --text-times-16-regular-2-font-style: normal;
+  --text-times-11-bold-font-family: Inter-Bold, sans-serif;
+  --text-times-11-bold-font-size: 10.720000267028809px;
+  --text-times-11-bold-line-height: normal;
+  --text-times-11-bold-font-weight: 700;
+  --text-times-11-bold-font-style: normal;
+  --text-times-16-bold-font-family: Inter-Bold, sans-serif;
+  --text-times-16-bold-font-size: 16px;
+  --text-times-16-bold-line-height: normal;
+  --text-times-16-bold-font-weight: 700;
+  --text-times-16-bold-font-style: normal;
+  --text-arial-13-regular-font-family: Inter-Regular, sans-serif;
+  --text-arial-13-regular-font-size: 13.33329963684082px;
+  --text-arial-13-regular-line-height: normal;
+  --text-arial-13-regular-font-weight: 400;
+  --text-arial-13-regular-font-style: normal;
+
+  /* Effects */
+}
+/* Figma Color Variables of your File */
